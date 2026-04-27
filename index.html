@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegadores Web y su Función</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="header-logo">
+            <img src="img/logo.png" alt="Logo Navegadores Web" width="100">
+        </div>
+        <div class="datos-arriba">
+            <h1>Navegadores Web y su Función</h1>
+            <p class="estudiante">Juan David Florez</p>
+            <p class="materia">COM22 - Producción Multimedial</p>
+        </div>
+    </header>
+
+    <section class="portada">
+        <img src="img/foto1.jpg"
+             alt="Red global de Internet"
+             class="foto-portada">
+        <p class="nota-img">Figura 1. Representación visual de la red global de Internet.</p>
+    </section>
+
+    <section class="bloque-info">
+        <h2>Introducción</h2>
+        <p>
+            Me parece interesante que uno abre Chrome, Firefox o Edge como si nada y ya está:
+            “estoy en Internet”. En mi caso antes no le prestaba atención, pero haciendo esta práctica
+            me quedó sonando que detrás de ese clic pasan un
+            montón de cosas.
+        </p>
+        <p>
+            Para mí, un <strong>navegador web</strong> es como el “traductor” que convierte el HTML,
+            el CSS y el JavaScript en algo que yo pueda ver y usar: textos, imágenes, botones, videos,
+            todo eso que parece tan normal cuando uno está scrolleando.
+        </p>
+        <p>
+            Aprendí que entender esto sí sirve, sobre todo si uno está en Tecnología en Desarrollo de Software y se mete con cosas de web.
+            Al final, cualquier cosa que yo haga (una página sencilla o algo más grande) termina viéndose
+            diferente dependiendo del navegador, y ahí es donde uno entiende por qué a veces “en mi PC se ve bien”
+            pero en otro lado no tanto.
+        </p>
+        <p>
+            Y también, siendo sincero, me ayuda a elegir mejor cuál usar: en mi caso prefiero uno que vaya rápido
+            y no me consuma tanta RAM cuando tengo mil pestañas abiertas (porque eso me pasa seguido).
+        </p>
+    </section>
+
+    <section class="bloque-info">
+        <h2>Desarrollo y Contenido</h2>
+
+        <h3>¿Qué es un navegador web?</h3>
+        <p>
+            Un navegador web es una aplicación de software diseñada para recuperar, presentar y
+            recorrer recursos en la World Wide Web. Cuando escribimos una dirección URL, el navegador
+            envía una solicitud al servidor correspondiente, recibe los archivos de la página y los
+            interpreta para mostrárnoslos visualmente.
+        </p>
+        <p>
+            A mí me ayudó pensarlo como una “cadena de pasos” interna: primero se conecta a un servidor,
+            luego descarga recursos (HTML, CSS, JavaScript, imágenes) y finalmente los procesa para construir
+            la interfaz. Lo que vemos no aparece “por magia”; el navegador va creando un árbol de elementos (DOM),
+            calcula estilos (CSSOM) y los combina para pintar la página en pantalla.
+        </p>
+        <p>
+            También entendí por qué el navegador influye tanto: cada uno tiene un motor de renderizado y un motor
+            de JavaScript con optimizaciones distintas. Por eso a veces un sitio se siente más fluido en un navegador
+            que en otro, incluso en el mismo computador y con la misma conexión.
+        </p>
+
+        <h3>Funciones principales</h3>
+        <ul>
+            <li>Solicitar y mostrar páginas web a través del protocolo HTTP/HTTPS.</li>
+            <li>Interpretar y renderizar código HTML, CSS y JavaScript.</li>
+            <li>Administrar el historial de navegación y los marcadores.</li>
+            <li>Gestionar cookies y sesiones de usuario.</li>
+            <li>Ofrecer seguridad mediante certificados SSL y bloqueo de sitios maliciosos.</li>
+            <li>Permitir la instalación de extensiones y complementos.</li>
+        </ul>
+        <p>
+            Y algo que a veces uno no piensa: el navegador también se adapta a donde lo uses (PC, tablet o celular),
+            entonces la experiencia no es exactamente la misma en todos lados.
+        </p>
+        <p>
+            En mi caso, esto se nota cuando paso de PC a celular: el navegador cambia el tamaño de texto,
+            el sitio se reorganiza (diseño responsivo) y algunas funciones se simplifican para ahorrar batería y datos.
+            No es solo “la misma página más pequeña”; es una experiencia distinta que el navegador ayuda a gestionar.
+        </p>
+
+        <h3>Conceptos clave</h3>
+        <table>
+            <tr>
+                <th>Concepto</th>
+                <th>Definición</th>
+            </tr>
+            <tr>
+                <td>URL</td>
+                <td>Dirección única que identifica un recurso en Internet.</td>
+            </tr>
+            <tr>
+                <td>HTTP/HTTPS</td>
+                <td>Protocolo de comunicación entre el navegador y el servidor web.</td>
+            </tr>
+            <tr>
+                <td>Motor de renderizado</td>
+                <td>Componente interno que convierte el código HTML y CSS en la página visual.</td>
+            </tr>
+            <tr>
+                <td>Caché</td>
+                <td>Almacenamiento temporal de archivos para acelerar la carga de páginas visitadas.</td>
+            </tr>
+            <tr>
+                <td>Cookie</td>
+                <td>Pequeño archivo que guarda información del usuario en el navegador.</td>
+            </tr>
+            <tr>
+                <td>Extensión</td>
+                <td>Complemento que añade funcionalidades adicionales al navegador.</td>
+            </tr>
+        </table>
+
+        <h3>Ventajas y desventajas</h3>
+        <table>
+            <tr>
+                <th>Ventajas</th>
+                <th>Desventajas</th>
+            </tr>
+            <tr>
+                <td>Acceso rápido a cualquier información en Internet.</td>
+                <td>Pueden consumir mucha memoria RAM cuando se abren muchas pestañas.</td>
+            </tr>
+            <tr>
+                <td>Compatibles con la mayoría de dispositivos y sistemas operativos.</td>
+                <td>Algunos sitios no funcionan igual en todos los navegadores.</td>
+            </tr>
+            <tr>
+                <td>Permiten instalar extensiones para personalizar la experiencia.</td>
+                <td>Pueden recolectar datos del usuario si no se configuran correctamente.</td>
+            </tr>
+            <tr>
+                <td>Actualizaciones automáticas de seguridad.</td>
+                <td>Dependencia total de una conexión a Internet para funcionar.</td>
+            </tr>
+        </table>
+
+        <h3>Componentes principales de un navegador</h3>
+        <ul>
+            <li><strong>Interfaz de usuario:</strong> La barra de direcciones, botones de navegación y pestañas.</li>
+            <li><strong>Motor del navegador:</strong> Coordina la comunicación entre la interfaz y el motor de renderizado.</li>
+            <li><strong>Motor de renderizado:</strong> Interpreta el HTML y CSS para construir la página visualmente.</li>
+            <li><strong>Intérprete de JavaScript:</strong> Ejecuta el código JS de las páginas web.</li>
+            <li><strong>Módulo de red:</strong> Gestiona las solicitudes HTTP/HTTPS al servidor.</li>
+            <li><strong>Almacenamiento:</strong> Maneja cookies, caché e historial.</li>
+        </ul>
+
+        <img src="img/foto2.png"
+             alt="Estructura de una URL en el navegador"
+             class="foto-apoyo">
+        <p class="nota-img">Figura 2. Estructura y componentes de una URL en el navegador.</p>
+    </section>
+
+    <section class="bloque-info">
+        <h2>Ejemplos y Casos Prácticos</h2>
+
+        <h3>Navegadores más usados en el mundo</h3>
+        <p>
+            Existen varios navegadores disponibles hoy en día, cada uno con características propias.
+            A continuación se presenta una comparación de los más populares:
+        </p>
+        <p>
+            Algo que me pareció clave es que “parecidos por fuera” no significa “iguales por dentro”. Por ejemplo,
+            Chrome y Edge comparten el motor Blink, pero no necesariamente consumen lo mismo ni ofrecen las mismas
+            opciones de privacidad. En cambio Firefox usa Gecko, y eso lo hace diferente en compatibilidad y en
+            cómo implementa ciertas funciones web.
+        </p>
+        <table>
+            <tr>
+                <th>Navegador</th>
+                <th>Empresa</th>
+                <th>Motor de renderizado</th>
+                <th>Característica principal</th>
+                <th>Cuota de mercado</th>
+            </tr>
+            <tr>
+                <td>Google Chrome</td>
+                <td>Google</td>
+                <td>Blink</td>
+                <td>Velocidad y compatibilidad</td>
+                <td>~65%</td>
+            </tr>
+            <tr>
+                <td>Mozilla Firefox</td>
+                <td>Mozilla</td>
+                <td>Gecko</td>
+                <td>Privacidad y código abierto</td>
+                <td>~3%</td>
+            </tr>
+            <tr>
+                <td>Safari</td>
+                <td>Apple</td>
+                <td>WebKit</td>
+                <td>Ahorro de batería en Mac/iPhone</td>
+                <td>~19%</td>
+            </tr>
+            <tr>
+                <td>Microsoft Edge</td>
+                <td>Microsoft</td>
+                <td>Blink</td>
+                <td>Integración con Windows y IA</td>
+                <td>~5%</td>
+            </tr>
+            <tr>
+                <td>Opera</td>
+                <td>Opera Software</td>
+                <td>Blink</td>
+                <td>VPN gratis integrada</td>
+                <td>~3%</td>
+            </tr>
+        </table>
+
+        <h3>Caso real: ¿Cómo carga una página web?</h3>
+        <p>
+            Cuando escribimos <em>www.google.com</em> y presionamos Enter, el navegador sigue
+            estos pasos de forma automática en menos de un segundo:
+        </p>
+        <ol>
+            <li>Consulta al servidor DNS para convertir "google.com" en una dirección IP.</li>
+            <li>Establece una conexión segura con el servidor usando el protocolo HTTPS.</li>
+            <li>Solicita los archivos HTML, CSS, JavaScript e imágenes de la página.</li>
+            <li>El motor de renderizado construye el árbol de elementos (DOM) con el HTML.</li>
+            <li>Aplica los estilos CSS para darle apariencia visual a la página.</li>
+            <li>El intérprete JavaScript ejecuta los scripts para dar interactividad.</li>
+            <li>La página aparece completamente cargada en pantalla.</li>
+        </ol>
+        <p>
+            A mí me sirvió relacionar ese proceso con dos “sensaciones” comunes: cuando el DNS demora, parece que la página
+            se queda pensando sin cargar nada; y cuando el problema es el renderizado (mucho JavaScript o recursos pesados),
+            a veces aparece algo de contenido pero la página se siente trabada. Eso me hizo entender que no todo es “la señal
+            de Internet”; el navegador también tiene trabajo pesado por hacer.
+        </p>
+
+        <h3>Ejemplo funcional: extensiones útiles en Chrome</h3>
+        <ul>
+            <li><strong>uBlock Origin:</strong> Bloquea anuncios y rastreadores.</li>
+            <li><strong>LastPass:</strong> Gestiona contraseñas de forma segura.</li>
+            <li><strong>Dark Reader:</strong> Activa el modo oscuro en cualquier sitio web.</li>
+            <li><strong>Grammarly:</strong> Corrige gramática y ortografía en tiempo real.</li>
+        </ul>
+        <p>
+            En mi experiencia, las extensiones son útiles, pero también hay que ser cuidadoso: entre más instale,
+            más fácil es que el navegador se vuelva pesado o que una extensión pida permisos que no necesita.
+            Por eso yo reviso dos cosas antes de dejarlas activas: qué permisos solicita y si realmente me ahorra tiempo
+            (si no, la desinstalo).
+        </p>
+        <p>
+            Un ejemplo rápido: un bloqueador de anuncios normalmente necesita leer y modificar contenido de páginas para
+            filtrar scripts y banners. Eso puede mejorar velocidad, pero también implica permisos amplios. Para mí, la regla
+            es simple: si una extensión pide acceso a “todos los sitios” y no entiendo por qué, prefiero no usarla.
+        </p>
+
+        <div class="logos-browsers">
+            <img src="img/Google_Chrome.png"
+                 alt="Icono de Google Chrome" class="logo-browser">
+            <img src="img/Firefox_logo.png"
+                 alt="Icono de Mozilla Firefox" class="logo-browser">
+            <img src="img/safari.png"
+                 alt="Icono de Safari" class="logo-browser">
+        </div>
+        <p class="nota-img">Figura 3. Logos de los navegadores más populares: Chrome, Firefox y Safari.</p>
+    </section>
+
+    <section class="bloque-info cierre">
+        <h2>Conclusiones</h2>
+        <p>
+            La verdad, después de realizar este trabajo me quedó más claro que el navegador no es solo “la app para entrar a Google”.
+            Es la puerta por donde pasa casi todo lo que hacemos en Internet, y si está lento o mal configurado, se nota de una.
+        </p>
+        <p>
+            También entendí por qué no hay un “mejor navegador” para todo: depende de lo que uno haga. A mí me gusta que sea rápido
+            y que no se ponga pesado con muchas pestañas, claro está que a otra persona le puede importar más la privacidad o la integración con el sistema.
+            Y como estudiante de Tecnología en Desarrollo de Software, esto me sirve porque al final lo que programo se tiene que ver bien ahí mismo.
+        </p>
+        <ul>
+            <li>Me llevo como idea principal no confiarme: probar en más de un navegador evita sorpresas.</li>
+            <li>Y en temas de seguridad, prefiero tenerlo actualizado y revisar permisos/extensiones para no regalar datos.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© Derechos Reservados 2026 &nbsp;|&nbsp; Juan David Florez &nbsp;|&nbsp; COM22 - Producción Multimedial</p>
+    </footer>
+
+</body>
+</html>
